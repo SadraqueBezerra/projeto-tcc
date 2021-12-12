@@ -11,6 +11,9 @@ import team2 from "assets/img/team/team-2.jpg";
 import team3 from "assets/img/team/team-3.jpg";
 import team4 from "assets/img/team/team-4.jpg";
 
+import { BiFingerprint } from "react-icons/bi";
+import { AiFillGift } from "react-icons/ai";
+
 
 
 function Main() {
@@ -36,13 +39,13 @@ function Main() {
                                 </div>
 
                                 <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
-                                    <div className="icon"><i className="bx bx-fingerprint"></i></div>
+                                    <div className="icon"><i className="bx bx-fingerprint">< BiFingerprint /></i></div>
                                     <h4 className="title"><a href="/">Lorem Ipsum</a></h4>
                                     <p className="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
                                 </div>
 
                                 <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
-                                    <div className="icon"><i className="bx bx-gift"></i></div>
+                                    <div className="icon"><i className="bx bx-gift">< AiFillGift /></i></div>
                                     <h4 className="title"><a href="/">Nemo Enim</a></h4>
                                     <p className="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
                                 </div>
