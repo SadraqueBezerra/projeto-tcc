@@ -76,8 +76,8 @@ function Team() {
                                 <div className="member-info">
                                     <h4>Marcelo Pereira</h4>
                                     <div className="social">
-                                        <a href="/" className="github"> <GoMarkGithub /><i className="bi bi-github"></i></a>
-                                        <a href="/" className="linkedin"> <BsLinkedin /><i className="bi bi-linkedin"></i></a>
+                                        <a href="https://github.com/Hurao" className="github"> <GoMarkGithub /><i className="bi bi-github"></i></a>
+                                        <a href="https://www.linkedin.com/in/marcelo-pereira-265bb9211/" className="linkedin"> <BsLinkedin /><i className="bi bi-linkedin"></i></a>
                                     </div>
                                 </div>
                             </div>
