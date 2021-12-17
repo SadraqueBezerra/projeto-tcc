@@ -47,9 +47,9 @@ export default function Navbar() {
                         {(toggleMenu || screenWidth > 500) && (
                             <ul className="list">
                                 <li><a className="items" href="/">Home</a></li>
-                                <li><a className="items" href="#about">Sobre</a></li>
-                                <li><a className="items" href="/team">Team</a></li>
-                                <li><a className="items" href="/more">Mais</a></li>
+                                <li><a className="items" href="/artigo">Artigo</a></li>
+                                <li><a className="items" href="/team">Equipe</a></li>
+                                <li><a className="items" href="/conteudoadicional">Conteúdo Adicional</a></li>
                             </ul>
                         )}
                         <button onClick={toggleNav}

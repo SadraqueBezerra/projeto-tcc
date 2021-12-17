@@ -1,0 +1,198 @@
+import Navbar from "../../components/NavBar";
+import Footer from "../../components/Footer";
+import React from 'react';
+
+
+import slide1 from "assets/img/slide/slide2.jpeg"
+//import slide2 from "assets/img/slide/slide2.jpeg"
+//import slide3 from "assets/img/slide/slide3.png"
+
+
+function Artigo() {
+    return (
+        <>
+            <Navbar />
+
+            <div className="carousell" >
+                <div className="images">
+                    <img src={slide1} alt=""></img>
+                </div>
+            </div>
+
+            <main id="main">
+                <section id="about" className="about">
+                    <div className="container" >
+
+                        <div className="row-artigo">
+
+
+                            <div className="d-flex flex-column justify-content-center about-content">
+
+                                <div className="artigo-title">
+                                    <br />
+
+                                    <h2>Introdução</h2>
+                                    <div className="artigo">
+                                        <p> O uso de Inteligência Artificial já não é algo que se possa estranhar na atualidade, pois está presente em diversas situações do cotidiano das pessoas, principalmente em smartphones, em jogos, softwares de computador, aplicativos de reconhecimento de voz e de escrita à mão e muito mais. Também pode-se ver o uso de IA em muitas empresas, as quais coletam grandes repositórios de informações e utilizam computadores de alta velocidade para processá-las.<br /><br />
+                                            E é claro que na área da medicina não poderia ser diferente. Simulando algumas atividades humanas, a inteligência artificial é conectada a dispositivos, para desempenharem processos de diagnóstico, estatísticas e resolução de problemas, armazenando um banco de dados de pacientes reais, cruzando resultados e fazendo cálculos que apontam informações com precisão (VINCENZO, 2018).<br />
+                                            Para se entender o quão exponencial é o crescimento da IA, algumas pesquisas deverão ser mencionadas. De acordo com uma postagem no site da Microsoft News, a PWC chegou ao resultado de que o mercado projetado dessa tecnologia, até 2020, atingirá US $70 bilhões.  (MICROSOFT, 2019).<br /><br />
+                                            Já a pesquisa da Accenture (2016), sobre o impacto da Inteligência Artificial em 12 economias desenvolvidas, revela que ela poderá duplicar as taxas de crescimento econômico anual até 2035. A previsão é que o impacto das tecnologias de IA sobre o setor empresarial aumentará a produtividade da força de trabalho em até 40% e permitirá a otimização do tempo por parte das pessoas. (ACCENTURE, 2016).<br />
+                                            Vale a pena ressaltar que a inteligência artificial aplicada à saúde está cada vez mais completa e já existem softwares que procuram por doenças de acordo com os sintomas apresentados pelo paciente no seu histórico. Assim, fica mais fácil descobrir qual a doença que o paciente tem, evitando perda de tempo e erros médicos.<br /><br />
+                                            Isto posto, este trabalho sobre “Inteligência artificial na medicina”, tendo como foco um estudo da IA aplicada à saúde no tratamento de diversas doenças, algumas questões estiveram presentes: O que é uma Inteligência Artificial? Como compreendê-la na relação com a medicina? Quais são os benefícios da IA na área da saúde bem como no tratamento de diversas doenças?<br />
+                                            Parte-se do pressuposto de que com os avanços na área da inteligência artificial, juntamente com a área da medicina, surgiram diversas vantagens para o tratamento e diagnóstico de doenças.<br /><br />
+                                            Nesse sentido, este estudo se justifica devido à necessidade de reunir dados sobre os atuais métodos de controle de dados na medicina, trazendo informações que contribuem para o entendimento de como a IA é usada como ferramenta na medicina.<br />
+                                            Objetiva-se com o trabalho refletir e analisar sobre a Inteligência artificial (IA) na medicina, tendo como foco um estudo sobre a aplicabilidade da IA na área da saúde no tratamento de diversas doenças; compreender o que significa IA; entender a origem da IA na medicina; observar e analisar sobre os avanços tecnológicos na área da medicina e o uso da inteligência artificial para o tratamento e descoberta de doenças; avaliar os benefícios do uso dessa tecnologia; analisar o uso dessa tecnologia no Brasil.<br /><br />
+                                            Este artigo tem como finalidade a pesquisa básica, que por meio de uma pesquisa qualitativa, busca compreender e analisar a Inteligência artificial na medicina, tendo como foco um estudo sobre a sua aplicabilidade na área da saúde e no tratamento de doenças. Utilizando como fonte de dados: revistas acadêmicas, livros, entrevistas, artigos científicos.
+                                        </p>
+                                    </div>
+                                    <h2>Fundamentação Teórica</h2>
+
+                                    <div className="artigo">
+                                        <p> Neste momento serão apresentados os referenciais teóricos que embasaram o presente estudo.</p>
+                                    </div>
+                                    <h2>Inteligência Artifical: Conceituações</h2>
+
+                                    <div className="artigo">
+                                        <p> A definição de Inteligência artificial (IA) está baseada na melhoria de processos, os quais podem atuar em diversas áreas, como por exemplo, educação, saúde e agricultura. Com o objetivo na melhoria da qualidade de vida.
+                                            O surgimento da IA é recente. Sua história inicia-se após a segunda guerra mundial, com um conjunto de cientistas da época, como Alan Turing, Marvin Minsky, John McCarthy, Allen Newell e Herbert A. Entretanto, alguns anos antes, por volta de 1943, Warren McCulloch e Walter Pitts, publicaram um artigo relacionado a redes neurais e estruturas de raciocínio artificiais em modelo matemático, que imita o sistema nervoso do corpo humano, portanto já havia começado a surgir ideias relacionadas à IA mesmo antes do fim da guerra. (BOUCHART, 2017).
+                                            No ano de 1950, Alan Turing, desenvolveu uma forma de avaliar se uma máquina consegue se passar por um humano em uma conversa por escrito, e esse teste ficou nomeado como teste de Turing, entretanto foi apenas no ano de onde houve a conferência de Dartmouth que de forma geral, é considerado o evento fundador da IA como campo, com a missão de desenvolver máquinas inteligentes. (KLEINA, 2018).
+                                            O próximo passo importante, ainda comenta o autor, na história da IA ocorreu em 1964, quando foi criado o primeiro chatbot do mundo, com o nome de Eliza, cuja função era realizar conversas de forma automática, gerenciada por dados e algoritmos que eram baseados em palavras-chave. Naquela época, buscando a capacidade neurológica de um ser humano, a IA foi capaz de criar máquinas desenvolvendo soluções inovadoras, e durante essa época o poder de processamento era muito limitado e caro. (KLEINA, 2018).
+                                            Nos dias atuais, o poder de processamento possuído pelo ser humano é extremamente alto e cada vez mais vem se tornando acessível, e a IA está presente em nosso cotidiano, como por exemplo as assistentes pessoais como a Siri, Cortana entre outras. Até mesmo nas corporações, com objetivo na otimização de processos e em sistemas de segurança, sendo reconhecida na saúde e principalmente em atendimentos.
+                                        </p>
+                                    </div>
+                                    <h2>A Inteligência Artificial em Medicina (IAM)</h2>
+
+                                    <div className="artigo">
+                                        <p> Entre os anos 70 e 80, uma comunidade pequena, mas talentosa de cientistas da computação e profissionais da saúde se dedicaram a dar forma a um programa de pesquisa em uma nova área chamada Inteligência Artificial em Medicina (IAM). Estes pesquisadores tinham uma visão ambiciosa da maneira como a IAM revolucionária a medicina e avançaria as fronteiras da tecnologia. Vale a pena salientar também que esses profissionais, em grande parte norte-americanos, tiveram suas primeiras pesquisas iniciadas em grandes universidades americanas, como: MIT (Massachusetts Institute of Technology); Tufts University e University of Pittsburgh. (ENRICO, 1998).
+                                            Este trabalho atraiu rapidamente muitos dos melhores cientistas da época, e até hoje é uma referência na história da IAM, por ter sido um período extremamente produtivo.
+                                            Como citado na revista Informática Médica (ENRICO, 1998), os pesquisadores Clancey e Shortliffe (1984, p.36), definiram a IAM como “Inteligência Artificial médica se preocupa primariamente com a construção de programas de IA que realizam diagnósticos e fazem recomendações terapêuticas.”
+                                            Assim, pode-se dizer que na medicina, a IAM tem sido utilizada pela sua capacidade de analisar dados e auxiliar nos diagnósticos de doenças e na recomendação de possíveis tratamentos. Um exemplo é o Watson, um algoritmo desenvolvido pela empresa norte-americana IBM (International Business Machines), que se destaca na área da informática.
+                                            O sistema usa o chamado deep learning, em uma tradução literal “Aprendizagem Profunda”, que é um tipo de machine learning, que treina computadores para realizar tarefas como seres humanos, o que inclui reconhecimento de fala, identificação de imagem e previsões. A partir disso o deep learning aproveita dados genéticos ou clínicos do paciente para sugerir tratamentos indicados para cada caso. (EQUIPE TOTVS, 2019).
+                                            Sendo assim, antes de recorrer às inúmeras combinações de medicamentos, os especialistas podem optar pelas práticas mais seguras e indicadas, o que melhora a qualidade de vida dos pacientes.
+                                            A IAM também tem sido utilizada para ter resultados mais exatos. Nos EUA, na Alemanha e na China, pesquisadores desenvolveram um algoritmo composto por um imenso banco de imagens de exames radiológicos. As tomografias ópticas são realizadas para analisar as diferentes camadas da retina e encontrar possíveis alterações que possam causar a perda da visão. A ferramenta consegue identificar certas características das imagens que são de extrema importância para a obtenção de um diagnóstico preciso. O programa conseguiu superar os especialistas em retina na identificação de diagnósticos. (VICENZO, 2018).
+                                            Esses sistemas vêm sendo desenvolvidos para reconhecer diversos exames radiológicos, como as tomografias ópticas e mamografias.
+                                            Outra função que vem se destacando no campo da Inteligência Artificial na Medicina é a associação de sintomas para obter um diagnóstico preciso. O TensorFlow, uma biblioteca de software desenvolvida pelo Google, tem se mostrado bastante eficiente nesse caso. A partir dela, é possível identificar complicações como a retinopatia diabética, uma doença causada pela diabetes, que afeta os olhos deixando a visão turva. Por meio de fotografias da retina do paciente, a ferramenta observa e compara com as imagens de seu banco de dados, procurando por semelhanças que indiquem algum problema. (VICENZO, 2018).
+                                            Também há a possibilidade de fazer associações entre os sintomas, de acordo com a enfermidade e o histórico do paciente. Nos experimentos, o programa obteve uma taxa de sucesso semelhante à dos especialistas da área.
+                                            A Inteligência Artificial na Medicina vem sendo trabalhada para alertar o médico sobre as mudanças no quadro dos pacientes, em tempo real. Isso é feito por meio de um programa, conectado a um monitor de computador, que envia alertas ao profissional em emergências. Em outras situações de menor urgência, o sistema ainda é capaz de analisar resultados de exames laboratoriais e prescrições de medicações, além de enviar alertas e lembretes. O objetivo é oferecer mais praticidade e melhorar a relação entre médico e paciente.
+                                        </p>
+                                    </div>
+
+                                    <h2>Procedimentos Metodológicos</h2>
+                                    <div className="artigo">
+                                        <p> Será apresentado o caminho adotado para se chegar ao resultado, explicitando o percurso metodológico.</p>
+                                    </div>
+
+                                    <h2>Metodologia da Pesquisa</h2>
+                                    <div className="artigo">
+                                        <p> Em relação à finalidade/natureza da pesquisa foi realizada uma pesquisa básica, a qual, segundo Appolinário (2011, p. 146), tem como objetivo principal “o avanço do conhecimento científico, sem nenhuma preocupação com a aplicabilidade imediata dos resultados a serem colhidos”. Sendo assim, refere-se ao estudo que visa ampliar a base existente de conhecimento sobre Inteligência Artificial na Medicina, buscando conceitos e exemplos de seu uso, desenvolvendo o conhecimento científico e unindo conhecimentos existentes para facilitar a compreensão.
+                                            Já em relação à abordagem, realizou-se uma pesquisa qualitativa, definida por Rodrigues e Limena (2006, p. 90), como sendo aquela “não emprega procedimentos estatísticos ou não tem, como objetivo principal, abordar o problema a partir desses procedimentos''. É utilizada para investigar problemas que os procedimentos estatísticos não podem alcançar ou representar, em virtude de sua complexidade”.
+                                            Objetivando-se compreender os fenômenos por meio da coleta de dados narrativos, estudando as particularidades a fim de obter uma compreensão aprofundada e assim refletir e analisar sobre a Inteligência artificial (IA) na medicina, tendo como foco um estudo sobre a aplicabilidade da IA na área da saúde no tratamento de diversas doenças, trata-se de uma pesquisa exploratória, que na perspectiva de Appolinário (2011, p. 75), a pesquisa ou estudo exploratório tem por objetivo “aumentar a compreensão de um fenômeno ainda pouco conhecido, ou de um problema de pesquisa ainda não perfeitamente delineado”.
+                                            Pode-se dizer assim que essa modalidade de pesquisa é prospectiva. Acrescido a isso, essa modalidade pode parecer uma pesquisa bibliográfica e documental quando o foco da investigação está centrado em documentos, ou ainda, quando o pesquisador realiza um levantamento teórico acerca de um tema que pretende estudar e investigar.
+                                            Trata-se, inicialmente, de uma pesquisa bibliográfica, com consulta a livros, artigos científicos, monografias, dissertações de mestrado, entre outras. A pesquisa bibliográfica, a qual, segundo a publicação feita no site da Universidade Estadual de Goiás (UEG), “compreende o levantamento de toda a bibliografia já publicada em forma de livros, periódicos (revistas), teses, anais de congressos, indexados em bases de dados em formato on-line ou cd-rom”(UEG,2008).
+                                            O acesso rápido às informações é fundamental e a internet pode proporcionar essa experiência aos usuários se utilizada da maneira correta. Tendo isso em mente, o desenvolvimento de um site com o conteúdo do artigo foi realizado, a ideia é fazer com que os usuários interessados em IAM também possam desfrutar de uma experiência ao procurarem informações sobre o assunto.
+                                        </p>
+                                    </div>
+
+                                    <h2>Desenvolvimento da Temática - Descrição Técnica</h2>
+                                    <div className="artigo">
+                                        <p>Como dito anteriormente, trata-se de uma pesquisa bibliográfica e documental. Para tanto foram utilizados dados dispostos em sites, blogs sobre medicina, artigos livros e revistas acadêmicas, encontrados por meio das palavras-chave: Inteligência Artificial, Aplicação da IA na Saúde, Inteligência Artificial em Medicina, IAM no Brasil, Usos da Inteligência Artificial na Medicina.
+                                            Foi realizado também um levantamento do que existia na área, atentado para projetos desenvolvidos no Brasil sobre IAM.
+                                            Seguindo esta linha de raciocínio, foi possível observar o surgimento da inteligência artificial, em meados dos anos 40, que foi se aperfeiçoando através de vários estudos de cientistas do mundo inteiro. E assim, na década de 80, começou a ser estudada em conjunto com a medicina, com o objetivo de trazer mais praticidade aos tratamentos de doenças, com essas pesquisas se desenvolveram aplicações incríveis, que otimizaram o tempo de atendimentos, e ajudaram diversas pessoas a serem diagnosticadas ao longo dos anos.
+                                            Assim, com os exemplos citados no decorrer do artigo, é possível ver que a IAM trouxe uma vantagem imensa para a humanidade, salvando vidas pelo mundo, e trazendo tratamentos mais assertivos para pacientes em situações graves. Não só isso, melhorando a organização de documentos importantes, como laudos e exames.
+                                            E mesmo com o investimento baixo nos hospitais brasileiros, é possível ver a evolução dessa área no Brasil, onde é possível ver que existem não só projetos com parceiros de outros países, mas também há aqueles desenvolvidos por pessoas nascidas no Brasil, que usaram seus conhecimentos para aprimorar o sistema de saúde.
+                                            Isto posto, fica evidente que ainda é preciso muitos investimentos para que Inteligência Artificial se torne algo comum em todos os hospitais, mas o importante é que já é possível enxergar um futuro próximo em que essa tecnologia vai ser cada vez mais usada e desenvolvida, assim trazendo mais benefícios do que se é possível imaginar.
+                                            Com a proposta de facilitar  acesso às informações contidas no artigo, foi desenvolvido um site com todo o conteúdo presente no mesmo. Para seu desenvolvimentos foram usadas as linguagens: HTML, CSS, Java e TypeScript. O projeto contendo todo o código e arquivos usados pode ser acessado no seguinte repositório do GitHub: https://github.com/SadraqueBezerra/projeto-tcc.
+                                        </p>
+                                    </div>
+
+                                    <h2>Resultados e Discussão</h2>
+                                    <div className="artigo">
+                                        <p>Serão apresentados a coleta de dados de pesquisa bem como suas respectivas análises.</p>
+                                    </div>
+
+                                    <h2>Benefícios Trazidos Pela Inteligência Artificial na Medicina Nacional</h2>
+                                    <div className="artigo">
+                                        <p>Na atual situação do mundo, se torna cada vez mais necessário os investimentos em tecnologia na área da saúde. Com uma análise precisa e segura de exames, a inteligência artificial fornece informações rápidas para os médicos, assim, fazendo com que sejam estabelecidas prioridades de atendimento, tanto em casos mais simples quanto em situações de urgência.
+                                            O arquivamento de dados tem sido um fator muito relevante no uso da IA, ter fácil acesso aos dados de pacientes é muito importante para gerar diagnósticos precisos e para o encaminhamento de uns tratamentos mais adequados. Nesse sentido, o médico consegue ter acesso a essas informações em qualquer lugar e de maneira simples.
+                                            A inteligência artificial é capaz de armazenar e processar uma quantidade gigantesca de dados, como o histórico dos pacientes. Isso contribui para o acompanhamento de pessoas com doenças graves e com dificuldade de locomoção, além de impedir que materiais sejam perdidos em casos de incêndio ou problemas no hardware.
+                                            A redução nos custos operacionais é outro fator relevante, pois é ela que possibilita o aumento do lucro dos acionistas e o investimento no negócio, possibilitando cada vez mais melhorias, potencializando assim a produtividade do médico, e ajudando a salvar mais vidas.
+                                            Com um sistema de saúde veloz, seguro e com alto nível de qualidade, é possível delegar a tarefa de laudar os exames às máquinas. Assim os médicos conseguem focar no atendimento aos pacientes e aumentar o número de consultas diárias.
+                                            Além de auxiliar no diagnóstico, a IAM pode ser usada, ainda, para melhorar a eficiência nos tratamentos. Buscando em uma vasta bibliografia, opções terapêuticas mais viáveis para cada caso analisado.
+                                            Algo que é válido destacar é o monitoramento de pacientes que é feito através de diversos dispositivos e aplicativos, analisando o estado de saúde e a mudança no quadro dos pacientes. Nesse sentido, smartwatches, pulseiras e outros “vestíveis inteligentes” servem para acompanhar indicadores como pressão arterial, picos de glicemia, batimentos cardíacos, entre outros. Os dados gerados pelos aparelhos são processados por uma IA, que reproduz informações úteis para o médico avaliar o problema do paciente.
+                                        </p>
+                                    </div>
+
+                                    <h2>Projetos de IAM Desenvolvidos no Brasil</h2>
+                                    <div className="artigo">
+                                        <p> No Brasil, o avanço na área da Inteligência Artificial na Medicina tem sido lento, mas mesmo com a falta de investimentos na área, já é possível ver resultados dos usos da IA em alguns hospitais brasileiros.
+                                            O Grupo Fleury validou um algoritmo para auxiliar médicos no diagnóstico de embolia pulmonar através de exames de imagem. O diagnóstico precoce dessa doença pode reduzir o risco de complicações e morte consideravelmente. (MACHADO, 2020).
+                                            Durante a Hackmed Conference, um evento que ocorreu em fevereiro de 2020, no qual vários especialistas da área de medicina e tecnologia se reuniram para discutir o impacto das novas tecnologias e a importância da inovação, Rizzatti (2020), diretor-executivo e médico no Grupo Fleury, explicitou que esse algoritmo auxiliava com o escaneamento automatizado da tomografia do paciente, enquanto ele ainda é submetido ao exame e indica para o radiologista sinais de que possa haver uma embolia pulmonar.
+                                            A IAM também é utilizada em mamografias. A aplicação é conduzida pelo laboratório Delboni, do grupo Dasa, que conta com profissionais do Brasil e da Argentina. O projeto utiliza algoritmo desenvolvido pela americana Curemetriz. (MACHADO, 2020).
+                                            A empresa já aplicou a técnica em mais de 6 mil casos. Segundo a Dasa (2020), o padrão ouro para rastreamento com mamografia é a dupla leitura, que consiste na análise do exame por dois médicos radiologistas. Com isso, há aumento da especificidade e da sensibilidade do exame.
+                                            O algoritmo, por sua vez, indica quando os resultados preenchem esses critérios, apontando eventuais equívocos. Portanto, tem impacto direto na qualidade dos diagnósticos, o que traz benefícios evidentes para os pacientes. É importante levar em consideração que muitos projetos de IAM são trazidos por grandes corporações internacionais, com o objetivo de trazer avanço na saúde. Um bom exemplo é o software programado pela Aidoc, que possui sede em Israel. O sistema foi desenvolvido para instruir algoritmos a detectar quadros de embolia pulmonar e hemorragia cerebral. O equipamento é capaz de detectar aspectos específicos que definem a gravidade do quadro do paciente. Se os dados apontarem para um estado crítico, significa que o especialista deve priorizar aquele caso. (ESTÁCIO, 2021).
+                                            Com o intuito de aperfeiçoar a abordagem tecnológica e tornar a avaliação o mais precisa possível, os envolvidos no projeto ainda planejam a realização de aprimoramentos, que tem como objetivo reduzir a quantidade de conclusões equivocadas, sejam elas relacionadas a falsos positivos ou associadas a falsos negativos.
+                                            O projeto do robô Laura, desenvolvido por um analista de sistemas, após sua filha Laura, de apenas 18 dias de vida, morreu ao sofrer uma septicemia. Fressato (2019), desenvolveu um programa, o qual indica os pacientes com maior risco de desenvolver um quadro de sepse, uma infecção na corrente sanguínea que resulta em um conjunto de sintomas como queda na pressão arterial, aumento da frequência cardíaca e febre.
+                                            O programa, desenvolvido por Fressato em 2019, conecta-se ao prontuário eletrônico e acessa todas as informações do paciente. Além disso, avalia os sinais vitais do indivíduo, relacionando-os aos resultados dos exames laboratoriais.
+                                            Entretanto, algo que se deve levar em consideração no Brasil é que, para médicos e pacientes desfrutarem de um sistema de saúde desse nível, não se pode e se deve falar apenas de aparelhos avançados baseados em IA. É preciso discutir, primeiramente, como será feito o registro de dados clínicos da população. Afinal, eles são o ponto de partida para que especialistas, e os softwares, acompanhem a evolução do paciente e entendam padrões epidemiológicos, por exemplo.
+                                            Coletar e registrar informações de saúde pode parecer algo simples, mas não é bem assim. Principalmente em um país do tamanho do Brasil, que soma 211 milhões (2019) segundo o censo feito pelo IBGE, de pessoas com acessos muito divergentes à rede de saúde. A inteligência artificial pode ajudar muito: ela é capaz de pegar um volume imenso de dados, reconhecer padrões e gerar algoritmos que podem tanto auxiliar médicos no atendimento diário quanto revelar o cenário da saúde de toda a nação.
+                                            No entanto, para isso, é preciso ter sistemas informatizados e substituir fichas de papel por prontuários eletrônicos, o que, além de evitar gastos e erros, economiza tempo nas consultas. Algo que ainda está fora da realidade de muitas instituições do país. Para ter ideia, 39% dos estabelecimentos de saúde brasileiros registram informações cadastrais e clínicas dos pacientes em prontuários manuscritos, enquanto apenas 21% das instituições com acesso à internet armazenam os dados em formato eletrônico.
+                                            Esses dados foram tirados do livro Medição da Saúde Digital (2019), publicado pela Organização Pan-Americana da Saúde e pelo Núcleo de Informação e Coordenação do Ponto BR (NIC.br). O documento mostra, por outro lado, que o cenário está mudando: 40% dos médicos já fazem prescrições digitalmente, e que esse número pode vir a aumentar nos próximos anos, principalmente com o apoio de instituições que financiam a tecnologia em hospitais.
+                                        </p>
+                                    </div>
+
+                                    <h2>Consideração Finais</h2>
+                                    <div className="artigo">
+                                        <p> Esse trabalho permitiu entender a Inteligência Artificial na Medicina (IAM), trazendo a história da IA, como também seus conceitos, sua aplicabilidade na medicina, o uso dessa tecnologia no Brasil e quais as vantagens que trouxe à área da saúde.
+                                            Assim, por meio de diversos referenciais teóricos, incluindo artigos científicos, revistas científicas, blogs, entre outros, foi possível refletir e analisar sobre os dados necessários para poder mostrar os avanços tecnológicos e as diversas vantagens que a  IA trouxe à medicina.
+                                            Como principal exemplo, pode-se citar a maior facilidade de diagnósticos médicos, como a IA tem uma grande capacidade de processamento de dados, ela pode comparar exames com os de outros pacientes, e assim chegar a um diagnóstico mais rápido, que acelera o trabalho dos médicos no momento de se indicar um tratamento.
+                                            A hipótese inicial do trabalho de que com os avanços na área da inteligência artificial, juntamente com a área da medicina, surgiram diversas vantagens para o tratamento e diagnóstico de várias doenças, foi confirmada, pois foi possível notar o fato da IA não apenas ter trazido diversas vantagens, como também trará, nos próximos anos, cada vez mais, benefícios no diagnóstico e no tratamento dessas doenças, como a embolia pulmonar, a hemorragia cerebral e a septicemia, que já foram citadas anteriormente.
+                                            Considerou-se, neste estudo, uma limitação devido à Pandemia da Covid-19, não tendo sido possível uma pesquisa de campo ou mesmo estudo de caso para maior aprofundamento sobre o objeto de estudo, pois seria interessante que outros estudos considerem as opiniões de membros da área da saúde, como médicos ou até mesmo dados de hospitais sobre o uso da IA.
+                                            Nesse sentido, sugere-se que pesquisas sejam realizadas para investigar a implementação da IA em hospitais, por meio de estudos de casos, assim que terminar a Pandemia da Covid-19.
+                                        </p>
+                                    </div>
+
+                                    <h2>Referências</h2>
+                                    <div className="artigo">
+                                        <p> ACCENTURE. What is artificial intelligence?. Blog Accenture. Disponível em: <li><a className="links" href="https://www.accenture.com/us-en/insights/artificial-intelligence-summary-index">www.accenture.com/us-en/insights/artificial-intelligence-summary-index</a></li>. Acesso em: 5 abr. 2021.
+                                            APPOLINÁRIO, F. Dicionário de Metodologia Científica. 2. ed. São Paulo: Atlas, 2011. p.295.
+                                            BILBAO, H. Uma breve História da I.A. Blog NSC Total. Ago 2020. Disponível em: <li><a className="links" href="https://www.nsctotal.com.br/noticias/uma-breve-historia-da-ia">www.nsctotal.com.br/noticias/uma-breve-historia-da-ia</a></li>. Acesso em: 5 abr. 2021.
+                                            BLOIS, M.; SHORTLIFFE, E. The computer meets medicine: emergence of a discipline. Disponível em:: SHORTLIFFE, E,; PERREAULT, L. Medical Informations: Computer applications in medical care. Massachusetts: Addison – Wesley, 1990, p. 1-36.
+
+                                            BOUCHARDT, E. Inteligência Artificial — Um pouco da história e avanços atuais. Site Medium. Ago 2017. Disponível em: <li><a className="links" href="https://medium.com/@eliezerfb/intelig%C3%AAncia-artificial-499fc2c4aa79">www.medium.com/@eliezerfb/intelig%C3%AAncia-artificial-499fc2c4aa79</a></li>. Acesso em: 5 abr. 2021.
+                                            BRANON, O. Inteligência Artificial: o que significa e por que é o Futuro do Crescimento?. Blog Accenture. Set 2016. Disponível em: <li><a className="links" href="https://www.accenture.com/br-pt/insight-artificial-intelligence-future-growth">www.accenture.com/br-pt/insight-artificial-intelligence-future-growth</a></li>. Acesso em: 5 abr. 2021.
+                                            CONCEIÇÃO, Y. Desafios e Impacto da Inteligência Artificial na Medicina. Trabalho de Graduação. Jul 2017. Disponível em: <li><a className="links" href="https://www.cin.ufpe.br/~tg/2017-1/ycps-tg.pdf">www.cin.ufpe.br/~tg/2017-1/ycps-tg.pdf</a></li>. Acesso em: 20 abr. 2021.
+                                            CORREA, E. Inteligência Artificial na Medicina. Revista Informática Médica. Jul/Ago 1998. Disponível em: <li><a className="links" href="http://www.informaticamedica.org.br/informaticamedica/n0104/coiera.htm">www.informaticamedica.org.br/informaticamedica/n0104/coiera.htm</a></li>. Acesso em: 10 mar. 2021.
+                                            CHARNIAK, Eugene; MCDERMOTT, Drew. A Bayesian Model of Plan Recognition. Massachusetts: Addison-Wesley, 1985
+
+                                            ELSTEIN AS, SHULMAN LS. SPRAFKA SA. Medical Problem Solving: an analysis of clinical reasoning. Cambridge (MA):Harvard University Press; 1978.
+                                            EQUIPE TOTVS. O que é Inteligência artificial? Como funciona, exemplos e aplicações. Blog TOTVS. Jun 2019. Disponível em: <li><a className="links" href="https://www.totvs.com/blog/inovacoes/o-que-e-inteligencia-artificial/">www.totvs.com/blog/inovacoes/o-que-e-inteligencia-artificial/</a></li>. Acesso em: 4 abr. 2021.
+                                            ESTÁCIO, BLOG DA FACULDADE. Conheça as tendências da inteligência artificial na medicina. Blog Estácio. Jan 2021. Disponível em: <li><a className="links" href="https://blog.estacio.br/esta-na-midia/inteligencia-artificial-na-medicina/">blog.estacio.br/esta-na-midia/inteligencia-artificial-na-medicina/</a></li>. Acesso em: 4 abr. 2021.
+                                            FERNANDO, H. A Inteligência Artificial vai revolucionar a medicina que conhecemos. Blog Veja Saúde. Jun 2020. Disponível em:  <li><a className="links" href="https://saude.abril.com.br/blog/com-a-palavra/a-inteligencia-artificial-vai-revolucionar-a-medicina-que-conhecemos/">saude.abril.com.br/blog/com-a-palavra/a-inteligencia-artificial-vai-revolucionar-a-medicina-que-conhecemos/</a></li>. Acesso em: 2 abr. 2021.
+                                            FORNAZIERO CC, GORDAN PA, GARANHANI ML. O raciocínio clínico dos estudantes de medicina em uma universidade pública do Brasil. Rev Bras Educ Med. 2012;pg.463-469
+                                            HAUGELAND, J. Artificial Intelligence: The Very Idea. Massachusetts: The MIT Press, 1985 Kurzweil
+                                            KLEINA, N. Conheça as tendências da inteligência artificial na medicina. Blog Estácio. Out 2018. Disponível em:<li><a className="links" href="https://www.tecmundo.com.br/mercado/135413-historia-inteligencia-artificial-video.htm">www.tecmundo.com.br/mercado/135413-historia-inteligencia-artificial-video.htm</a></li>. Acesso em: 6 abr. 2021.
+                                            POOLE, D.; MACKWORTH, A. K.; GOEBEL, R. Computational Intelligence: A Logical Approach. Oxford: Oxford University, 1998
+
+                                            MACHADO, V. Inteligência artificial na medicina: como ela pode ser usada? Blog Amplimed. Jul 2020. Disponível em: <li><a className="links" href="https://amplimed.com.br/inteligencia-artificial-na-medicina/?utm_source=inteligencia-artificial-na-medicina&utm_medium=organic&utm_campaign=inteligencia-artificial-na-medicina">amplimed.com.br/inteligencia-artificial-na-medicina/?utm_source=inteligencia-artificial-na-medicina&utm_medium=organic&utm_campaign=inteligencia-artificial-na-medicina</a></li>. Acesso em: 2 abr. 2021
+                                            MELLO, H. O que esperar da Inteligência Artificial na Medicina. Blog Medical Way. Out. 2020. Disponível em: <li><a className="links" href="https://blog.medicalway.com.br/o-que-esperar-da-inteligencia-artificial-na-medicina/">blog.medicalway.com.br/o-que-esperar-da-inteligencia-artificial-na-medicina/</a></li>. Acesso em: 7 abril. 2021.
+                                            MICROSOFT NEWS CENTER BRASIL. Com Inteligência Artificial, Brasil pode quadruplicar crescimento da produtividade e aumentar PIB em até 7,1% ao ano, diz estudo. Blog Microsoft News Center Brasil. Nov 2019 Disponível em: <li><a className="links" href="https://news.microsoft.com/pt-br/com-inteligencia-artificial-brasil-pode-quadruplicar-crescimento-da-produtividade-e-aumentar-pib-em-ate-71-ao-ano-diz-estudo/">Com Inteligência Artificial, Brasil pode quadruplicar crescimento da produtividade e aumentar PIB em até 7,1% ao ano, diz estudo – Microsoft News Center Brasil</a></li>. Acesso em: 10 abr. 2021
+                                            RIMOLDI, HJA. Diagnosing the Diagnostic Process. Medical Education. 1988;p. 270-278.
+                                            RODRIGUES, M. L.; LIMENA, M. M. C. (Orgs.). Metodologias multidimensionais em Ciências Humanas. Brasília: Líber Livros Editora, 2006. p.175.
+                                            SOARES, F. A Inteligência Artificial aplicada na Medicina. Blog CM Tecnologia. Fev 2017. Disponível em: <li><a className="links" href=" https://cmtecnologia.com.br/blog/inteligencia-artificial/">cmtecnologia.com.br/blog/inteligencia-artificial/</a></li>. Acesso em: 1 abr. 2021.
+                                            UEG. O que é Pesquisa Bibliográfica. Site da Universidade Estadual de Goiás. Fev 2008. Disponível em: <li><a className="links" href="  http://www.ueg.br/noticia/36347_o_que_e_pesquisa_bibliografica">www.ueg.br/noticia/36347_o_que_e_pesquisa_bibliografica</a></li>. Acesso em: 25 Mai. 2021.
+                                            VICENZO, R. Inteligência Artificial e a Medicina. Blog Medilab. Abr 2018. Disponível em: <li><a className="links" href="  http://https://medilab.net.br/2018/04/30/inteligencia-artificial-e-medicina/">medilab.net.br/2018/04/30/inteligencia-artificial-e-medicina/</a></li>. Acesso em: 1 abr. 2021.
+                                            VICENZO, R. Inteligência artificial na Saúde e desenvolvimento da Telemedicina. Blog Medilab. Jun 2018. Disponível em: <li><a className="links" href="https://medilab.net.br/2018/06/27/inteligencia-artificial-na-saude-e-desenvolvimento-da-telemedicina/">medilab.net.br/2018/06/27/inteligencia-artificial-na-saude-e-desenvolvimento-da-telemedicina//</a></li>. Acesso em: 1 abr. 2021.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <Footer />
+        </>
+    );
+}
+
+export default Artigo;

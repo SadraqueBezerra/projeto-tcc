@@ -1,7 +1,8 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from 'pages/Home';
 import Team from 'pages/Team';
-import Navbar from "./components/NavBar";
+import Artigo from "./pages/Artigo"
+import ConteudoAdicional from "./pages/Conteudoadicional"
 
 
 function Routes() {
@@ -14,8 +15,11 @@ function Routes() {
                 <Route path="/team" >
                     <Team />
                 </Route>
-                <Route path="/test" >
-                    <Navbar />
+                <Route path="/artigo" >
+                    <Artigo />
+                </Route>
+                <Route path="/conteudoadicional" >
+                    <ConteudoAdicional />
                 </Route>
                 
             </Switch>

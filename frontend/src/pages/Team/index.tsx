@@ -4,8 +4,6 @@ import team3 from "assets/img/team/peter.jpeg";
 import team4 from "assets/img/team/marcelo.jpeg";
 import NavBar from "components/NavBar";
 import Footer from "components/Footer";
-
-
 import { BsLinkedin } from "react-icons/bs";
 import { GoMarkGithub} from "react-icons/go"
 
@@ -18,7 +16,7 @@ function Team() {
                 <div className="container" data-aos="fade-up">
 
                     <div className="section-title">
-                        <h1>Nosso Time</h1>
+                        <h1>Integrantes</h1>
                        
                     </div>
 
@@ -33,8 +31,8 @@ function Team() {
                                 <div className="member-info">
                                     <h4>Sadraque Bezerra</h4>
                                     <div className="social">
-                                        <a href="/" className="github"> <GoMarkGithub /><i className="bi bi-github"></i></a>
-                                        <a href="/" className="linkedin"> <BsLinkedin /><i className="bi bi-linkedin"></i></a>
+                                        <a href="https://github.com/SadraqueBezerra" className="github"> <GoMarkGithub /><i className="bi bi-github"></i></a>
+                                        <a href="https://www.linkedin.com/in/sadraque-bezerra-07ab08125/" className="linkedin"> <BsLinkedin /><i className="bi bi-linkedin"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -48,8 +46,8 @@ function Team() {
                                 <div className="member-info">
                                     <h4>Natan Pompeu</h4>
                                     <div className="social">
-                                        <a href="/" className="github"> <GoMarkGithub /><i className="bi bi-github"></i></a>
-                                        <a href="/" className="linkedin"> <BsLinkedin /><i className="bi bi-linkedin"></i></a>
+                                        <a href="https://github.com/natanpompeu" className="github"> <GoMarkGithub /><i className="bi bi-github"></i></a>
+                                        <a href="https://www.linkedin.com/" className="linkedin"> <BsLinkedin /><i className="bi bi-linkedin"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -63,8 +61,8 @@ function Team() {
                                 <div className="member-info">
                                     <h4>Peter Davison</h4>
                                     <div className="social">
-                                        <a href="/" className="github"> <GoMarkGithub /><i className="bi bi-github"></i></a>
-                                        <a href="/" className="linkedin"> <BsLinkedin /><i className="bi bi-linkedin"></i></a>
+                                        <a href="https://github.com/Peter-Portela" className="github"> <GoMarkGithub /><i className="bi bi-github"></i></a>
+                                        <a href="https://www.linkedin.com/in/peter-davison-portela/" className="linkedin"> <BsLinkedin /><i className="bi bi-linkedin"></i></a>
                                     </div>
                                 </div>
                             </div>

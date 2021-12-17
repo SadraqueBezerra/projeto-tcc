@@ -67,9 +67,27 @@ body {
   }
 
   
- 
-  
-  
+/*--------------------------------------------------------------
+ # Artigo
+--------------------------------------------------------------*/
+.about .container .row-artigo {
+  margin-top: 1.25em;
+}  
+
+
+.about .container .artigo-title{
+    text-align: left;
+    text-align-last: center;
+    
+  }
+  .about .container .artigo {
+    font-size: 20px;
+    padding: 1%;
+    text-align-last: left;
+    text-align: left;
+    margin: 0;
+    
+  }
 
  
  
