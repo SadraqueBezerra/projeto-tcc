@@ -1,0 +1,7 @@
+{
+    "watch": ["src"],
+    "ext": "tsx, ts",
+    "execMap": {
+        "tsx": "react-scripts start"
+    }
+}

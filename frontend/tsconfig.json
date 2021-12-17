@@ -16,12 +16,16 @@
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
     "moduleResolution": "node",
+    "experimentalDecorators": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "emitDecoratorMetadata": true,
+    "outDir": "./build",
+    "sourceMap": true,
     "noEmit": true,
     "jsx": "react-jsx"
   },
   "include": [
     "src"
-  ]
+, "public/script.js"  ]
 }
